@@ -1,0 +1,15 @@
+CREATE DATABASE videojuegos_db;
+
+USE videojuegos_db;
+
+CREATE TABLE game (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    platform VARCHAR(50) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
+
+INSERT INTO game (title, platform, price) VALUES 
+('The Legend of Zelda: Breath of the Wild', 'Nintendo Switch', 59.99),
+('Red Dead Redemption 2', 'PlayStation 4', 39.99),
+('Cyberpunk 2077', 'PC', 29.99);
