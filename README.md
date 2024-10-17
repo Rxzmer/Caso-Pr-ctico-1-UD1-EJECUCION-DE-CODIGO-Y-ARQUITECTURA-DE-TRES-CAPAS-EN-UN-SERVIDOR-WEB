@@ -1,0 +1,2 @@
+# Caso-Pr-ctico-1-UD1-EJECUCION-DE-CODIGO-Y-ARQUITECTURA-DE-TRES-CAPAS-EN-UN-SERVIDOR-WEB
+Teniendo en cuenta la situación anterior, desarrolla una simple aplicación en la que se trabaje la estructura de las tres capas:  Capa de presentación con HTML, CSS y JavaScript. Capa de lógica de negocio, por ejemplo, con Java y Spring Boot. Capa de persistencia de datos, para gestión y almacenamiento de datos con MySQL, por ejemplo.
